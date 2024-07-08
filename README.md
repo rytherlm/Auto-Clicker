@@ -3,6 +3,9 @@ This repository contains a Python script that uses a webcam to detect hand gestu
 
 
 
-python -m venv hand_gesture_env
-source hand_gesture_env/bin/activate 
-pip install opencv-python mediapipe pyautogui
+python3 -m venv hand_gesture_env - mac
+python -m venv hand_gesture_env - Windows
+
+source hand_gesture_env/bin/activate  - Windows
+
+pip install opencv-python mediapipe pyautogui - Both
